@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+#logo img {
+  filter: brightness(0%);
+  width: 70%;
+  margin-left: 1em;
+}
+
+#hamburger {
+  height: 26px;
+  width: 26px;
+  margin-right: 1em;
+}
+
+#introSection {
+  padding: 0 1em;
+  background-image: url(graphic.png);
+  background-position: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#introSection p:nth-of-type(1) {
+  color: #ff3898;
+}
+
+#introSection p:nth-of-type(2) {
+  font-size: 2em;
+}
+
+#introSection p:nth-of-type(3) {
+  color: #555555;
+}
+
+#gradientSection {
+  padding: 0 1em;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  margin: 30px 0;
+  background-image: url(background.svg);
+  background-repeat: no-repeat;
+  height: 180px;
+}
+
+#gradientSection p:nth-of-type(1) {
+  font-size: 2em;
+}
+
+#imageContainer {
+  display: flex;
+  overflow: hidden;
+}
+
+#finalSection {
+  padding: 0 1em;
+  background-image: url(upsell-footer-image.svg);
+  background-position: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#finalSection p:nth-of-type(1) {
+  color: #ff3898;
+}
+
+#finalSection p:nth-of-type(2) {
+  font-size: 2em;
+}
+
+#finalSection p:nth-of-type(3) {
+  color: #555555;
+}
+
+.socialIcons {
+  display: inline-block;
+}
+
+.socialIcons img {
+  height: 15px;
+  filter: brightness(0%);
+  padding-right: 10px;
+}
+
+button {
+  background-color: white;
+  padding: 1em 2em;
+  border-radius: 50px;
+  border: solid 2px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #ff4b73, #e8944c);
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  font-weight: bold;
+}
